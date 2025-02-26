@@ -1,0 +1,24 @@
+[project]
+name = "graphql"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "daniil.lebiadzevich",email = "daniil.lebiadzevich@sqilsoft.by"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "fastapi (>=0.115.8,<0.116.0)",
+    "strawberry-graphql (>=0.260.2,<0.261.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "sqlalchemy (>=2.0.38,<3.0.0)",
+    "sqlmodel (>=0.0.22,<0.0.23)",
+    "asyncpg (>=0.30.0,<0.31.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
